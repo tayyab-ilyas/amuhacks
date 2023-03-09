@@ -23,6 +23,7 @@
 .nav-link{
     font-size:1.2rem;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 .learnnav{
     color:black !important; 
@@ -61,7 +62,8 @@ h1{
 }
 .contact-btn{
     border:0px;
-    border-radius: 200px;
+    font-weight:bold;
+    border-radius: 30px;
     background-color: #5bc41b;
     color:white;
     justify-content: center;
