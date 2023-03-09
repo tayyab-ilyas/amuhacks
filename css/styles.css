@@ -1,4 +1,3 @@
-/*fonts*/
 
 #title{
     background-color:white;
@@ -11,6 +10,7 @@
     background-size: 500px 500px;
     background-repeat: no-repeat;
     background-position: right top;
+    background-color: whitesmoke];
 }
 /*navbar*/
 .navbar{
@@ -46,7 +46,7 @@
 /*body*/
 .btw{
     padding:0 0 1% 1%;
-    color:#89c762;
+    color:#272727;
     font-family: 'League Spartan' , sans-serif;
 }
 h1{
@@ -57,12 +57,14 @@ h1{
 .download-btn{
     border-radius: 100px;
     border: 0px;
+    font-family: 'Poppins', sans-serif;
     background-color:#5bc41b;
     color:white;
 }
 .contact-btn{
     border:0px;
-    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
     border-radius: 30px;
     background-color: #5bc41b;
     color:white;
@@ -80,12 +82,54 @@ h1{
 .learnmore{
     font-family: 'Poppins',sans-serif;
     padding:0 0 0 2%;
-    color:#5bc41b;
+    color:#272727;
     font-weight:bold;
     text-decoration: none;
 
 }
 .learnmore:hover{
     text-decoration: none;
-    color:#03674a;
+    color:#5bc41b;
+}
+
+/*features*/
+
+#features{
+    padding:7% 15%;
+    position: relative;
+    background-color: #272727;
+}
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+.icon{
+    color:#5bc41b;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#cbddd1;
+}
+h3{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color:white;
+}
+p{
+    color:whitesmoke;
+}
+
+/*testimonials*/
+#testimonials{
+    padding:7% 15%;
+    text-align:center;
+    background-color: whitesmoke;
+    color:#272727;
+    font-family: 'Poppins', sans-serif;
+
+}
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
 }
