@@ -6,11 +6,12 @@
 }
 .container-fluid{
     padding:1% 10% 18%;
-    background: url("images/uicomp1.png");
+    background: url("images/bg.png");
     background-size: 500px 500px;
     background-repeat: no-repeat;
-    background-position: right top;
-    background-color: whitesmoke];
+    background-position: center;
+    background-size: cover;
+    background-color: whitesmoke;
 }
 /*navbar*/
 .navbar{
