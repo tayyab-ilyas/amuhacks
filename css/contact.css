@@ -1,4 +1,3 @@
-
 #title{
     background-color:white;
     color:#03674a;
@@ -93,76 +92,39 @@ h1{
     color:#5bc41b;
 }
 
-/*features*/
 
-#features{
-    padding:7% 15%;
-    position: relative;
-    background-color: #272727;
-}
-.feature-box{
-    text-align: center;
-    padding:5%;
-}
-.icon{
-    color:#5bc41b;
-    margin-bottom:1rem;
-}
-.icon:hover{
-    color:#cbddd1;
-}
-h3{
-    font-family: 'League Spartan', sans-serif;
-    font-weight: bold;
-    font-size: 1.25rem;
-    color:white;
-}
-p{
-    color:whitesmoke;
+
+/* contact form */
+
+#subject{
+    width: 55%;
+    height: 130px;
 }
 
-/*testimonials*/
-#testimonials{
-    padding:7% 15%;
-    text-align:center;
-    background-color: whitesmoke;
-    color:#272727;
-    font-family: 'Poppins', sans-serif;
+.labelitem{
+    margin: 5px;
+    font-size:large;
+    line-height: 1.5;
+}
 
+.labelitemb{
+     margin: 5px;
+    font-size:large;
+    line-height: 1.5;
+    opacity: 0.5;
+    width: 55%;
 }
-.carousel-control-next,
-.carousel-control-prev{
-    filter: invert(100%);
-}
-/*about us*/
-.about-us{
-    background-color: #cbddd1;
-    text-align: center;
-    padding:7% 15%;
 
+.labelitemb:hover{
+   opacity: 0.7;
 }
-.about-us>h2{
-    font-family: 'League Spartan', sans-serif;
-    color:#272727;
-    font-size: 2.5rem;
-}
-.about-us>p{
-    font-family: 'Poppins', sans-serif;
-    color:#03674a;
-}
-/*footer*/
 
-#footer{
-    padding:4% 15%;
-    text-align:center;
-    background-color: #272727;
-    color:white;
 
+.contactus{
+    margin-bottom: 12%;
 }
-.scl-icn{
-    padding:20px 15px;
-    color:#cbddd1;
-}
-.scl-icn:hover{
-    color:#5bc41b;
+
+
+.submitbtn{
+    margin: 3% 3% 3% 1%;
 }

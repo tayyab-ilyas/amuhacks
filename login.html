@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Greenit</title>
+    <title>Log in</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/signUp.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-outline-dark btn-lg contact-btn">
-                               <a href="contact.html" style="text-decoration: none; color: white;"> Contact</a>
+                                <a href="contact.html" style="text-decoration: none; color: white;"> Contact</a>
                                </button>
                             
                         </li>
@@ -48,12 +48,28 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h6 class="btw">Building towards</h4>
-                    <h1>Carbon Neutral Tomorrow</h1>
-                    <button type="button" class="btn btn-outline-dark btn-lg download-btn">
-                    <a href="signup.html" style="color: white; text-decoration:none ;"> Get Started</a>
-                    </button>
-                    <a class="learnmore" href="#about-us">or know more....</a>
+                    <h2 class="signup">Log in</h2>
+                  <form action="" method="post">
+                <div class="form">
+                    <label class="labelitem"for="username">User Name</label><br>
+                    <input class="labelitemb"type="text" class="username" placeholder="User Name"><br>
+                    <label class="labelitem"for="username">Email Address</label><br>
+                    <input class="labelitemb"type="email" class="email" placeholder="Email Id"><br>
+                    <label class="labelitem"for="username">Password</label><br>
+                    <input class="labelitemb"type="password" class="password" placeholder="Password"><br>
+                    <input class="labelitem"type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                    <label class="labelitem"for="checkbox"> Remember me</label><br>
+                    
+                    <p>Don't have an account ? <a href="signup.html">Sign Up</a></p>
+
+                    <div class="loginupbtn">
+                        <button class="btn btn-lg btn-outline-dark">Log in</button>
+                    </div>
+                       
+                </div>
+
+
+                  </form>
                 </div>
 
                 <div class="col-lg-6">
@@ -63,74 +79,15 @@
         </div>
     </section>
 
-    <!--features-->
-    <section id="features">
-<div class="row">
-    <div class="feature-box col-lg-4">
-        <i class="fa-solid fa-circle-check fa-3x icon"></i>
-        <h3>Easy To Use</h3>
-        <p>Clean UI</p>
-</div>
-<div class="feature-box col-lg-4">
-    <i class="fa-solid fa-bullseye fa-3x icon"></i>
-        <h3>Reliable Services</h3>
-        <p>Trusted Vendors</p>
-        </div>
-        <div class="feature-box col-lg-4">
-            <i class="fa-solid fa-heart fa-3x icon"></i>
-        <h3>Plethora Of Options</h3>
-        <p>Just browse dude</p>
-        </div>
-    </section>
-
-    <!--Testimonials-->
-
-    <section id="testimonials">
-
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>Testimonial 1</h2>
-          <img class="testimonial-img" src="" alt="user-image">
-          <em>Name, Country/city</em>
-        </div>
-        <div class="carousel-item">
-          <h2 class="testimonial-text">Testimonial 2</h2>
-          <img class="testimonial-img" src="" alt="user-image">
-          <em>Name, Country/city</em>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
 
 
 
 
-  </section>
-
-   <div class="about-us" id="about-us">
-    <h2>About Us</h2>
-    <p>lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-   </div>
 
         <!--footer-->
         <footer id="footer">
-            <i class="fa-brands fa-facebook scl-icn fa-2x"></i>
-            <i class="fa-brands fa-instagram scl-icn fa-2x"></i>
-            <i class="fa-brands fa-twitter scl-icn fa-2x"></i>
-            <i class="fa-brands fa-github scl-icn fa-2x"></i>
-            <p>© Copyright Binary Bandits</p>
-    
+           
         </footer>
-
-
-
-
         <script src="https://kit.fontawesome.com/85af5b9804.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
