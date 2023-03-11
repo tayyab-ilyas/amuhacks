@@ -134,35 +134,3 @@ p{
 .carousel-control-prev{
     filter: invert(100%);
 }
-/*about us*/
-.about-us{
-    background-color: #cbddd1;
-    text-align: center;
-    padding:7% 15%;
-
-}
-.about-us>h2{
-    font-family: 'League Spartan', sans-serif;
-    color:#272727;
-    font-size: 2.5rem;
-}
-.about-us>p{
-    font-family: 'Poppins', sans-serif;
-    color:#03674a;
-}
-/*footer*/
-
-#footer{
-    padding:4% 15%;
-    text-align:center;
-    background-color: #272727;
-    color:white;
-
-}
-.scl-icn{
-    padding:20px 15px;
-    color:#cbddd1;
-}
-.scl-icn:hover{
-    color:#5bc41b;
-}
