@@ -183,8 +183,10 @@
     outline:none;
 }
 /*footer*/
+
 #footer{
-    margin-top: 40%;
+    margin-top:40%;
+    margin-bottom:0%;
     padding:4% 15%;
     text-align:center;
     background-color: #272727;
