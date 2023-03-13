@@ -125,7 +125,7 @@ p{
 #testimonials{
     padding:7% 15%;
     text-align:center;
-    background-color: whitesmoke;
+    background-color: #cbddd1;
     color:#272727;
     font-family: 'Poppins', sans-serif;
 
@@ -141,14 +141,31 @@ p{
     padding:7% 15%;
 
 }
+
+.home{
+    color: black; width: 50%; text-align: center; margin: auto;
+}
+
+.home1{
+    color: black; width: 40%; text-align: center; margin: auto;
+}
+
+.home2{
+    color: black; width: 40%; text-align: center; margin: 10px auto; 
+}
 .about-us>h2{
     font-family: 'League Spartan', sans-serif;
     color:#272727;
     font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 .about-us>p{
     font-family: 'Poppins', sans-serif;
     color:#03674a;
+}
+
+.cbtn{
+    text-align: end;
 }
 /*footer*/
 

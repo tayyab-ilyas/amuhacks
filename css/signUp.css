@@ -182,6 +182,10 @@
 .butt_out:focus{
     outline:none;
 }
+
+.login{
+    text-align: justify;
+}
 /*footer*/
 
 #footer{
