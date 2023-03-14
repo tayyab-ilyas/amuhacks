@@ -311,6 +311,22 @@ textarea.input {
   top: 1rem;
   transform: translateY(0);
 }
+#product{
+    margin: auto;
+    width:80%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    align-items: center;
+}
+
+.labelitemb{
+     margin: 5px;
+    font-size:large;
+    line-height: 1.5;
+    opacity: 0.5;
+    width: 55%;
+}
 
 .btn1 {
   padding: 0.6rem 1.3rem;
