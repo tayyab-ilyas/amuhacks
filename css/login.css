@@ -71,7 +71,7 @@
 .container{
     position:absolute;
     max-width:800px;
-    height:500px;
+    height:350px;
     margin:auto;
     top:50%;
     left:50%;
@@ -83,7 +83,7 @@
     position:relative;
     background-image: linear-gradient(45deg,#5bc41b,#03674a);
     border-radius: 25px;
-    height:100%;
+    height:93%;
     padding: 25px;
     color:white;
     font-size: 12px;
@@ -95,7 +95,7 @@
     position: relative;
     background:#fff;
     border-radius: 25px;
-    height:100%;
+    height:92%;
     padding:25px;
     padding-left:50px;
 }
@@ -104,7 +104,7 @@
     font-size:24px;
     font-weight:700;
     margin-bottom: 20px;
-    padding-left: 10px;
+    margin-left: 90px;
 }
 .row{
     height: 100%;
@@ -182,10 +182,6 @@
 .butt_out:focus{
     outline:none;
 }
-
-.login{
-    text-align: justify;
-}
 /*footer*/
 
 #footer{
@@ -206,6 +202,18 @@
 }
 .checky{
     padding-left: 25px ;
+}
+.sign-up{
+    padding: 20px 0 0 0;
+}
+.sign{
+    text-decoration: none;
+    color: #5bc41b;
+    font-weight: bold;
+}
+.sign:hover{
+    text-decoration: none;
+    color:#03674a;
 }
 .cpy{
     font-size: small;
