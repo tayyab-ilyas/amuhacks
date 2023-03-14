@@ -199,11 +199,14 @@
 }
 .scl-icn{
     padding:20px 15px;
-    color:#cbddd1;
+    color:white;
 }
 .scl-icn:hover{
     color:#5bc41b;
 }
 .checky{
     padding-left: 25px ;
+}
+.cpy{
+    font-size: small;
 }
