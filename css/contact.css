@@ -635,3 +635,7 @@ textarea.input {
 .cpy{
   font-size: small;
 }
+::placeholder{
+  color: white;
+  opacity: 50%;
+}
