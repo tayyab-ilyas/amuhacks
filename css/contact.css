@@ -198,6 +198,7 @@ textarea {
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0%;
+  margin-top:5%;
 }
 
 .form {
@@ -214,14 +215,14 @@ textarea {
 }
 
 .contact-form {
-  background-color: #5bc41b;
+  background: linear-gradient(45deg, #5bc41b,#03674a );
 
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #19856f);
+  background: linear-gradient(135deg, transparent 20%, #5bc41b);
   position: absolute;
 }
 
@@ -310,6 +311,37 @@ textarea.input {
   top: 1rem;
   transform: translateY(0);
 }
+#product{
+    margin: auto;
+    width:80%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    align-items: center;
+}
+.labelitemb{
+     margin: 5px;
+    font-size:large;
+    line-height: 1.5;
+    opacity: 0.5;
+    width: 55%;
+}
+#product{
+    margin: auto;
+    width:80%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    align-items: center;
+}
+
+.labelitemb{
+     margin: 5px;
+    font-size:large;
+    line-height: 1.5;
+    opacity: 0.5;
+    width: 55%;
+}
 
 .btn1 {
   padding: 0.6rem 1.3rem;
@@ -391,12 +423,18 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #1abc9c;
+  color: #03674a;
+  font-family: 'League Spartan', sans-serif;
+  padding:50px 0 0px 30px;
+  font-size: 6rem;
 }
 
 .text {
   color: #333;
-  margin: 1.5rem 0 2rem 0;
+  padding-left:30px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0%;
+  
 }
 
 .information {
@@ -429,7 +467,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #1abc9c, #149279);
+  background: linear-gradient(45deg, #5bc41b,#03674a );
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -458,7 +496,7 @@ textarea.input {
   width: 0px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  background: linear-gradient(45deg, #5bc41b,#03674a );
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
@@ -549,6 +587,7 @@ textarea.input {
 
   .title {
     font-size: 1.15rem;
+
   }
 
   .social-icons a {
@@ -587,9 +626,12 @@ textarea.input {
 
 .scl-icn {
   padding: 20px 15px;
-  color: #cbddd1;
+  color: white;
 }
 
 .scl-icn:hover {
   color: #5bc41b;
+}
+.cpy{
+  font-size: small;
 }

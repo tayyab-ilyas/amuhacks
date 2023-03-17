@@ -9,7 +9,7 @@
 }
 .scl-icn{
     padding:20px 15px;
-    color:#cbddd1;
+    color:white;
 }
 .scl-icn:hover{
     color:#5bc41b;
@@ -108,4 +108,6 @@ h1{
     text-decoration: none;
     color:#5bc41b;
 }
-
+.cpy{
+    font-size: small;
+}
