@@ -310,6 +310,7 @@ textarea.input {
 .input-container.textarea label {
   top: 1rem;
   transform: translateY(0);
+}
 #product{
     margin: auto;
     width:80%;
@@ -317,6 +318,23 @@ textarea.input {
     background-color: #ffffff;
     overflow: hidden;
     align-items: center;
+}
+.labelitemb{
+     margin: 5px;
+    font-size:large;
+    line-height: 1.5;
+    opacity: 0.5;
+    width: 55%;
+}
+#product{
+    margin: auto;
+    width:80%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    align-items: center;
+}
+
 .labelitemb{
      margin: 5px;
     font-size:large;

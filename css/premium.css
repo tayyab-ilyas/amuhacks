@@ -9,7 +9,7 @@
 }
 .title-sec{
     background-color: #cbddd1;
-    padding:10% 10%;
+    padding:10% 15%;
     text-align: center;
 }
 h1{
@@ -22,11 +22,11 @@ h1{
 
 /*navbar*/
 .navbar{
-    padding:0 0 1%;
+    padding:0 0 2%;
 }
 
 .nav-item{
-    padding:0 20px;
+    padding:0 45px;
 }
 .nav-link{
     font-size:1.2rem;
@@ -106,12 +106,15 @@ h1{
 .cpy{
     font-size: small;
 }
-input{
-    font-family: 'Poppins', sans-serif;
-    border:1px solid #333;
-    font-size:18px;
-    padding:12px 10px;
-    margin:10px 0px 0px 290px;
-    width:100%;
-    
+.card1{
+    margin-right: 10px;
+   
+}
+.card2{
+    margin-left: 10px;
+
+}
+.container{
+    padding-bottom: 50px;
+    padding-top:30px;
 }
