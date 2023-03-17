@@ -106,3 +106,12 @@ h1{
 .cpy{
     font-size: small;
 }
+input{
+    font-family: 'Poppins', sans-serif;
+    border:1px solid #333;
+    font-size:18px;
+    padding:12px 10px;
+    margin:10px 0px 0px 290px;
+    width:100%;
+    
+}
